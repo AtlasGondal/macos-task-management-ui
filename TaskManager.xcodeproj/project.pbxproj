@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72BB3AA2BFB186900C2BF0D /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BB3A92BFB186900C2BF0D /* TaskListView.swift */; };
+		A72BB3AC2BFB194E00C2BF0D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BB3AB2BFB194E00C2BF0D /* TaskView.swift */; };
 		A72F3EA92BFAFD3B00036705 /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EA82BFAFD3B00036705 /* TaskManagerApp.swift */; };
 		A72F3EAB2BFAFD3B00036705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EAA2BFAFD3B00036705 /* ContentView.swift */; };
 		A72F3EAD2BFAFD3C00036705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72F3EAC2BFAFD3C00036705 /* Assets.xcassets */; };
 		A72F3EB02BFAFD3C00036705 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72F3EAF2BFAFD3C00036705 /* Preview Assets.xcassets */; };
+		A72F3EB92BFAFD6100036705 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EB82BFAFD6100036705 /* Task.swift */; };
+		A72F3EBB2BFB0B5500036705 /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EBA2BFB0B5500036705 /* TaskGroup.swift */; };
+		A72F3EBD2BFB0C8F00036705 /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EBC2BFB0C8F00036705 /* TaskSection.swift */; };
+		A72F3EBF2BFB0E3D00036705 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EBE2BFB0E3D00036705 /* SidebarView.swift */; };
+		A72F3EC12BFB0E5600036705 /* StaticTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F3EC02BFB0E5600036705 /* StaticTaskListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72BB3A92BFB186900C2BF0D /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		A72BB3AB2BFB194E00C2BF0D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		A72F3EA52BFAFD3B00036705 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72F3EA82BFAFD3B00036705 /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
 		A72F3EAA2BFAFD3B00036705 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A72F3EAC2BFAFD3C00036705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72F3EAF2BFAFD3C00036705 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A72F3EB12BFAFD3C00036705 /* TaskManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaskManager.entitlements; sourceTree = "<group>"; };
+		A72F3EB82BFAFD6100036705 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		A72F3EBA2BFB0B5500036705 /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		A72F3EBC2BFB0C8F00036705 /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
+		A72F3EBE2BFB0E3D00036705 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		A72F3EC02BFB0E5600036705 /* StaticTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTaskListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +66,16 @@
 		A72F3EA72BFAFD3B00036705 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				A72F3EB72BFAFD5000036705 /* Models */,
 				A72F3EA82BFAFD3B00036705 /* TaskManagerApp.swift */,
 				A72F3EAA2BFAFD3B00036705 /* ContentView.swift */,
 				A72F3EAC2BFAFD3C00036705 /* Assets.xcassets */,
 				A72F3EB12BFAFD3C00036705 /* TaskManager.entitlements */,
 				A72F3EAE2BFAFD3C00036705 /* Preview Content */,
+				A72F3EBE2BFB0E3D00036705 /* SidebarView.swift */,
+				A72F3EC02BFB0E5600036705 /* StaticTaskListView.swift */,
+				A72BB3A92BFB186900C2BF0D /* TaskListView.swift */,
+				A72BB3AB2BFB194E00C2BF0D /* TaskView.swift */,
 			);
 			path = TaskManager;
 			sourceTree = "<group>";
@@ -67,6 +86,16 @@
 				A72F3EAF2BFAFD3C00036705 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A72F3EB72BFAFD5000036705 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A72F3EB82BFAFD6100036705 /* Task.swift */,
+				A72F3EBA2BFB0B5500036705 /* TaskGroup.swift */,
+				A72F3EBC2BFB0C8F00036705 /* TaskSection.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72BB3AC2BFB194E00C2BF0D /* TaskView.swift in Sources */,
+				A72F3EC12BFB0E5600036705 /* StaticTaskListView.swift in Sources */,
 				A72F3EAB2BFAFD3B00036705 /* ContentView.swift in Sources */,
+				A72F3EB92BFAFD6100036705 /* Task.swift in Sources */,
+				A72F3EBD2BFB0C8F00036705 /* TaskSection.swift in Sources */,
+				A72F3EBB2BFB0B5500036705 /* TaskGroup.swift in Sources */,
 				A72F3EA92BFAFD3B00036705 /* TaskManagerApp.swift in Sources */,
+				A72F3EBF2BFB0E3D00036705 /* SidebarView.swift in Sources */,
+				A72BB3AA2BFB186900C2BF0D /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,11 +307,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TaskManager/TaskManager.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "$(CODE_SIGN_IDENTITY_$(_DEVELOPMENT_TEAM_IS_EMPTY))";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
-				DEVELOPMENT_TEAM = 9382DJMQPY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -287,6 +324,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atlasgondal.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -298,11 +336,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TaskManager/TaskManager.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
-				DEVELOPMENT_TEAM = 9382DJMQPY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -314,6 +353,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atlasgondal.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
