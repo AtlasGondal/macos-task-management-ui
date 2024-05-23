@@ -12,7 +12,7 @@ This project is a demonstration of various macOS app development techniques usin
 - **DropDown Menu on macOS**: Custom dropdown menu for macOS applications.
 - **Context Menu**: Use of context menus to provide additional functionality through dropdown menus.
 - **Settings Window**: A dedicated settings window to allow users to configure app preferences.
-- **@AppStorage**: Utilization of the `@AppStorage` property wrapper to store and retrieve user settings.
+- **@AppStorage**: `@AppStorage` could be utilized to store and retrieve user settings.
 - **Additional Window Types**: Techniques for creating and managing additional window types in a macOS application.
 
 ## Application Preview:
@@ -82,7 +82,7 @@ use @AppStorage to store user settings
     - Access the settings window from the menu to adjust app preferences.
 
 5. **@AppStorage**:
-    - User settings are stored using `@AppStorage` for persistent configuration.
+    - User settings could be stored using `@AppStorage` for persistent configuration.
 
 6. **Additional Window Types**:
     - The app demonstrates how to create and manage multiple window types, such as additional utility windows.
